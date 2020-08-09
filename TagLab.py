@@ -815,7 +815,7 @@ class TagLab(QWidget):
             self.refineBorderErode()
 
         elif event.key() == Qt.Key_F:
-            self.fillBorder()
+            self.fillLabel()
 
         # elif event.key() == Qt.Key_G:
         #     self.groupBlobs()
@@ -1765,7 +1765,7 @@ class TagLab(QWidget):
         else:
             self.infoWidget.setInfoMessage("You need to select <em>one</em> blob for REFINE operation.")
 
-    def fillLabel(self, blob):
+    def fillLabel(self):
 
         logfile.info("[OP-FILL] FILL operation starts..")
 

@@ -3528,21 +3528,21 @@ if __name__ == '__main__':
 
     # set the application font
 
-    QFD = QFontDatabase()
-    font_id1 = QFD.addApplicationFont("fonts/opensans/OpenSans-Regular.ttf")
-    if font_id1 == -1:
-        print("Failed to load application font..")
-        sys.exit(-2)
+#    QFD = QFontDatabase()
+#    font_id1 = QFD.addApplicationFont("fonts/roboto/Roboto-Regular.ttf")
+#    if font_id1 == -1:
+#        print("Failed to load application font..")
+#        sys.exit(-2)
 
-    font_id2 = QFD.addApplicationFont("fonts/roboto/Roboto-Light.ttf")
-    if font_id2 == -1:
-        print("Failed to load application font..")
-        sys.exit(-2)
+#    font_id2 = QFD.addApplicationFont("fonts/roboto/Roboto-Light.ttf")
+#    if font_id2 == -1:
+ #       print("Failed to load application font..")
+ #       sys.exit(-2)
 
-    font_id3 = QFD.addApplicationFont("fonts/roboto/Roboto-Regular.ttf")
-    if font_id3 == -1:
-        print("Failed to load application font..")
-        sys.exit(-2)
+ #   font_id3 = QFD.addApplicationFont("fonts/roboto/Roboto-Black.ttf")
+ #   if font_id3 == -1:
+  #      print("Failed to load application font..")
+  #      sys.exit(-2)
 
     font = QFont('Roboto')
     app.setFont(font)

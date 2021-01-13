@@ -1,0 +1,1 @@
+conda create - taglab python=3.7 -y
